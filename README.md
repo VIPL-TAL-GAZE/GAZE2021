@@ -71,7 +71,7 @@ cd src2
 ./train.sh
 ```
 
-To verify the result we submitted to the leaderboard, please implement verify.sh in src1 and src2.
+To verify all results we submitted to the leaderboard, please implement verify.sh in src1 and src2.
 
 
 
