@@ -41,7 +41,7 @@ def get_data_loader(data_dir, batch_size, mode, splits, input_size,
     else:
         raise ValueError
 
-    refer_list_file = os.path.join("../dataset", splits)
+    refer_list_file = os.path.join("../datasets", splits)
     print('load the train file list from: ', refer_list_file)
 
     with open(refer_list_file, 'r') as f:
