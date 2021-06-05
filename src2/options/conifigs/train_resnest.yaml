@@ -1,0 +1,51 @@
+# basic settings
+checkname: resnest269e_448
+ckpt_root: runs
+seed: 1
+
+# distributed
+world_size: 1
+rank: 0
+dist_url: 'tcp://localhost:23456'
+dist_backend: 'nccl'
+amp: false
+
+# data
+data_dir: '../datasets/xgaze_224'
+split_file: train_eval_test_split.json
+image_scale: 2
+
+# network
+# backbones must be the same counts as input_streams
+model: 'GazeNet'
+backbones: [['face', 'resnest269e']]
+pretrained: true
+dropout: 0.
+
+# train
+lr: 0.0001
+weight_decay: 0.05
+batch_size: 12
+epochs: 55
+workers: 8
+resume: false
+last_epoch: 9
+loss: 'l1'
+load_ckpt: null
+optim: 'adamw'
+scheduler: 'explr'
+gamma: 0.95
+step_size: [10, 5]
+use_ohem: true
+ohem_frac: 0.3
+
+# eval
+eval: true
+eval_batch_size: 128
+eval_dist: true
+
+# log
+use_tensorboard: true
+fresh_per_iter: 50
+
+debug: false
