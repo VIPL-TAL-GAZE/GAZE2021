@@ -32,7 +32,7 @@ Please download our pretrained models in [baiduyun](https://pan.baidu.com/s/1GLQ
 
 Pretrained models in gaze2021/checkpoints/* should should be placed into **checkpoints** folder, and gaze2021/datasets/*  should be placed into **datasets** folder.
 
-The training data xgaze_224 should be put in **datasets** folder .Or change **data_dir** argument in config for the data path.
+The training data xgaze_224 should be put in **datasets** folder. Or change **data_dir** argument in configs for the data path.
 
 The final structure would look like:
 
