@@ -73,6 +73,6 @@ cd src2
 
 To verify all results we submitted to the leaderboard, please implement verify.sh in src1 and src2.
 
-## Axriv link
+## Arxiv link
 https://arxiv.org/pdf/2107.01980.pdf
 
