@@ -28,7 +28,7 @@ Official implementation of ETH-XGaze Competition #1 Solution.
 
 ## File Structure 
 
-Please download our pretrained models in [baiduyun](https://pan.baidu.com/s/1GLQqDQzvfYP8frG6ahZEYw)，the password is **eo7p**.
+Please download our pretrained models in [GoogleDrive](https://drive.google.com/drive/folders/1fqJbcH7BIRj35319Awx0KIVRtExw5H09?usp=sharing) or [baiduyun](https://pan.baidu.com/s/1GLQqDQzvfYP8frG6ahZEYw)，the password is **eo7p**.
 
 Pretrained models in gaze2021/checkpoints/* should should be placed into **checkpoints** folder, and gaze2021/datasets/*  should be placed into **datasets** folder.
 
